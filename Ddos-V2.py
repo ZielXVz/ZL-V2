@@ -4,7 +4,13 @@ import random
 import socket
 import threading
  
-         
+os.system("clear")
+
+print("=========================================================")
+print(" [!] Author Tools : ZieLxxx
+print(" [Note] : Please Don't Abuse Okay
+print("=========================================================")
+
 print("▒███████▒ ██▓▓█████  ██▓    ▒██   ██▒▒██   ██▒▒██   ██▒   ")
 print("▒ ▒ ▒ ▄▀░▓██▒▓█   ▀ ▓██▒    ▒▒ █ █ ▒░▒▒ █ █ ▒░▒▒ █ █ ▒░   ")
 print("░ ▒ ▄▀▒░ ▒██▒▒███   ▒██░    ░░  █   ░░░  █   ░░░  █   ░   ")
