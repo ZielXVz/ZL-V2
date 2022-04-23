@@ -3,7 +3,8 @@
 import random
 import socket
 import threading
- 
+import os
+
 os.system("clear")
 print("=========================================================")
 print(" [!] Author Tools : ZieLxxx                              ")
